@@ -72,7 +72,7 @@ h1,h2, h3, h4, h5, h6 {
 #wrapper {
 	width:100%;
 	/*change from 0 Office Tracker*/
-	margin: 0 ;	
+	margin: 0 0 0 0 ;	
 	padding: 0;
 }
 
@@ -597,14 +597,15 @@ header ul.nav li ul li.dropdown-submenu li a {
 }
 
 /* flexslider */
-.main-slider.flexslider { margin: 40px 0 50px; background: transparent; border: none;
+/* changed from { margin: 40px 0 50px, for the images left & right for Office Tracker */
+.main-slider.flexslider { margin: 60px 0 50px; background: transparent; border: none;
 -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; 
 -o-box-shadow: none;
 box-shadow: none;
 }
 
 .main-slider .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-/*changed rgba(0, 0, 0, 0.06) to (0, 0, 0, 0) for Office Tracker */
+/*changed rgba(0, 0, 0, 0.06) for Office Tracker */
 .main-slider .flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
 .main-slider .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .main-slider .flex-caption p {margin: 0 0 15px;}
