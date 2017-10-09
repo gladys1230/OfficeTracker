@@ -71,7 +71,8 @@ h1,h2, h3, h4, h5, h6 {
 
 #wrapper {
 	width:100%;
-	margin:0;	
+	/*change from 0 Office Tracker*/
+	margin: 0 ;	
 	padding: 0;
 }
 
@@ -579,8 +580,8 @@ header ul.nav li ul li.dropdown-submenu li a {
 	width: 100%;
 	background:#fcfcfc;
 	position:relative;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding:0 ;
 }
 #featured.bg {
 	background: url(../img/dummies/feat-bg.jpg) no-repeat top center;
@@ -603,8 +604,8 @@ box-shadow: none;
 }
 
 .main-slider .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-
-.main-slider .flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.6); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+/*changed rgba(0, 0, 0, 0.06) to (0, 0, 0, 0) for Office Tracker */
+.main-slider .flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
 .main-slider .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .main-slider .flex-caption p {margin: 0 0 15px;}
 
@@ -623,10 +624,12 @@ box-shadow: none;
 ==================================== */
 section.callaction {
 	background:#fafafa;
-	padding:30px 0 0 0;
+	/*changed from 30px for Offace tracker*/
+	padding:0 0 0 0;
 }
+/*changed margin-top from 10px for better scaling*/
 .cta-text {
-	margin-top:10px;
+	margin-top:-30px;
 	text-align: left;
 }
 
