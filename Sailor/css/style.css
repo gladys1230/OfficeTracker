@@ -627,7 +627,7 @@ box-shadow: none;
 section.callaction {
 	background:#fafafa;
 	/*changed from 30px for Offace tracker*/
-	padding:0 0 0 0;
+	padding:30px 0 0 0;
 }
 /*changed margin-top from 10px for better scaling*/
 .cta-text {
